@@ -1,16 +1,8 @@
 # Prasunet_AD_02
-Overview
-Food Recognizer is an Android application that leverages image processing to identify food items and provide their nutritional information. The app features a user-friendly interface and integrates with an SQLite database to store and retrieve food data.
-
-Features
-Image Capture: Capture food images using your device camera.
-Food Recognition: Analyzes captured images to identify food items.
-Nutritional Information: Displays the name and calorie content of recognized food items.
-Database Integration: Uses SQLite for storing and managing food data.
-Splash Screen: Features a splash screen that transitions to the main activity.
-Technologies Used
-Java: Core programming language for application logic.
-Android SDK: Framework for building Android applications.
-SQLite: Database for storing food items and nutritional information.
-Image Processing: Analyzes images to identify food items.
-Feel free to open an issue.
+Overview:
+This is a basic Android application that allows users to manage their daily tasks with ease. Users can add, edit, and delete tasks, making it a perfect tool for staying organized. The app saves tasks using SharedPreferences to ensure that user data is retained even after closing the application.
+Features:
+Add New Tasks: Users can add new tasks to their list by typing into the input field and clicking the "Add Task" button.
+Edit Tasks: Tasks can be edited by clicking on the task in the list, which brings up a dialog allowing users to modify the text.
+Delete Tasks: Tasks can also be deleted from the same dialog where they are edited.
+Persistent Storage: All tasks are saved using SharedPreferences, ensuring that the task list is preserved even after the app is closed.
